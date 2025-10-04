@@ -1,6 +1,7 @@
-import React, { useState, useEffect, FC, ChangeEvent, MouseEvent } from 'react';
-import { Search, Filter, Star, GitFork, AlertCircle, Calendar, Code, ExternalLink, TrendingUp, Users, GitBranch, Award, Rocket, Target, Shield, Compass, BookOpen, Heart, ChevronRight, Layers, XCircle, LucideIcon } from 'lucide-react';
-
+import React, { useState, useEffect} from 'react';
+import type {FC, ChangeEvent, MouseEvent } from 'react';
+import { Search, Filter, Star, GitFork, AlertCircle, Calendar, Code, ExternalLink, TrendingUp, Users, GitBranch, Award, Rocket, Target, Shield, Compass, BookOpen, Heart, ChevronRight, Layers, XCircle } from 'lucide-react';
+import type {LucideIcon} from 'lucide-react';
 // --- Type Definitions (Derived from Backend Models) ---
 // Note: Backend snake_case properties are converted to camelCase for idiomatic TS/JS.
 
